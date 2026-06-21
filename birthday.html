@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 
 <title>Happy Birthday</title>
@@ -8,15 +7,34 @@
 <style>
 
 body{
-background:pink;
+background:linear-gradient(135deg,#ffdde1,#ee9ca7);
 text-align:center;
 font-family:Arial;
-padding:50px;
+padding:30px;
 }
 
 img{
 width:300px;
 border-radius:20px;
+box-shadow:0 0 20px white;
+}
+
+button{
+padding:15px 30px;
+font-size:18px;
+border:none;
+border-radius:25px;
+cursor:pointer;
+margin-top:20px;
+}
+
+h1{
+color:white;
+}
+
+p{
+font-size:20px;
+color:white;
 }
 
 </style>
@@ -27,14 +45,23 @@ border-radius:20px;
 
 <h1>🎂 Happy Birthday 🎂</h1>
 
+<img src="gambar.jpg.jpeg">
+
 <p>
-Semoga panjang umur,
-murah rezeki,
+Semoga panjang umur,<br>
+murah rezeki,<br>
 dan sentiasa bahagia ❤️
 </p>
 
-<img src="gambar.jpg">
+<audio controls autoplay loop>
+<source src="lagu.mp3" type="audio/mpeg">
+</audio>
+
+<br><br>
+
+<button onclick="window.location.href='message.html'">
+Read My Message ❤️
+</button>
 
 </body>
-
 </html>
